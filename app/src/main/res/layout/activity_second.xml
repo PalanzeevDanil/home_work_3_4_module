@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/forest_background"
+    android:background="@drawable/sea_background"
     tools:context=".SecondActivity">
 
     <TextView
@@ -12,12 +12,12 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="25dp"
-        android:text="Картотека животных"
         android:background="@drawable/shape_text"
+        android:gravity="center"
+        android:text="Картотека млекопитающих"
+        android:textColor="#EAEAEA"
         android:textSize="23sp"
         android:textStyle="bold"
-        android:textColor="#DCC19E"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

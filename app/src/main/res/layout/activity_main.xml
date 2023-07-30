@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/forest_background"
+    android:background="@drawable/sea_background"
     tools:context=".MainActivity">
 
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="230dp"
-        android:layout_height="230dp"
+        android:layout_width="283dp"
+        android:layout_height="260dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
